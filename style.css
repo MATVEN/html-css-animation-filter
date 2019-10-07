@@ -108,3 +108,9 @@
   filter: sepia(0.6) grayscale(1);
   transition: 3s;
 }
+
+.ex-8-img:hover{
+  filter:sepia(0.5) saturate(0.5);
+  border-radius: 25px;
+  transition: 3s;
+}
