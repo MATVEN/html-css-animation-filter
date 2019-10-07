@@ -84,3 +84,8 @@
   border-radius: 100%;
   transition: 3s;
 }
+
+.ex-4-square:hover{
+  background-color: inherit;
+  transition: 3s;
+}
