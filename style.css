@@ -99,3 +99,7 @@
   transform: scale(0.5);
   transition: 3s;
 }
+
+.ex-6-img:hover{
+  filter: grayscale(1);
+}
