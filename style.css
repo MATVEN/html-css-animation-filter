@@ -121,3 +121,16 @@
   transform: scale(1.5);
   transition: 3s;
 }
+
+.ex-10-icon{
+  animation: rotation 3s linear infinite;
+}
+
+@keyframes rotation {
+  0%{
+    transform: rotate(359deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
