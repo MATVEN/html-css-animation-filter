@@ -149,7 +149,11 @@
 }
 
 .ex-12-bottom:hover{
-  animation: move 3s linear infinite;
+  animation: move-top 3s linear infinite;
+}
+
+.ex-12-bottom:hover{
+  animation: move-bottom 3s linear infinite;
 }
 
 @keyframes move-top {
@@ -175,3 +179,5 @@
       right: 10%;
     }
 }
+
+.ex-13-bottom:hover
