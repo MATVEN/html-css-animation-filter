@@ -136,14 +136,42 @@
 }
 
 .ex-11-icon:hover{
-  animation: rotation 3s linear infinite;
+  animation: rotation2 3s linear infinite;
 }
 
-@keyframes rotation {
+@keyframes rotation2 {
   0%{
     transform: rotate(0deg);
   }
   75%{
     transform: rotate(270deg);
   }
+}
+
+.ex-12-bottom:hover{
+  animation: move 3s linear infinite;
+}
+
+@keyframes move-top {
+  0%{
+    left: 10%;
+  }
+  75%{
+    right: calc(100% - 70px)
+  }
+  100%{
+    left: 10%;
+  }
+}
+
+@keyframes move-bottom {
+  0%{
+      right: 10%;
+    }
+  75%{
+      left: calc(100% - 70px)
+    }
+  100%{
+      right: 10%;
+    }
 }
